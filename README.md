@@ -1,155 +1,81 @@
-<h1 align="center">Abhishek Bhosale</h1>
+### hey, I'm Abhishek 👋
 
-<p align="center">
-  <strong>AI & Data Science · ML Engineer · MLOps Builder</strong><br/>
-  <em>Turning complex numbers into smarter real-world decisions</em>
-</p>
+I build ML systems that go into production — not just notebooks. I'm a 2026 AI & Data Science grad from GCOE Ratnagiri, and lately I've been spending time on energy forecasting, credit risk modelling, and RAG pipelines.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/abhisheksambhaji-bhosale">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://abhishek-bhosale.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="mailto:abhishekbhosale7744@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/just000Curious">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+I had two concurrent internships in my final semester — one at Konkan Railway building a no-code SQL engine, and one at Innomatics working on agentic AI. Both are things I actually shipped.
 
 ---
 
-## About Me
+**find me here**
 
-- 🎓 **B.Tech — AI & Data Science** · Govt. College of Engineering, Ratnagiri (DBATU) · CGPA **7.63/10** · Graduated June 2026
-- 🔬 Built and deployed **production ML systems** with full MLOps lifecycle — MLflow, Docker, FastAPI, Azure ML
-- 🤖 Hands-on with **Agentic AI & RAG pipelines** — LangChain, LangGraph, vector embeddings, LLM API integration
-- 🐍 **Python 5★** on HackerRank
-- 📍 Maharashtra, India · Open to roles in **Pune · Mumbai · Navi Mumbai · Thane · Bengaluru**
-- 💼 Actively seeking **Junior Data Scientist / ML Engineer** positions
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-sambhaji-bhosale/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://abhishek-bhosale.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:abhishekbhosale7744@gmail.com)
 
 ---
 
-## Technical Skills
+### things I've built
 
-**ML & AI**
-`Scikit-learn` `XGBoost` `Random Forest` `PyTorch` `Time Series Forecasting` `SMOTE` `Optuna` `Feature Engineering` `Cross-Validation` `EDA`
+**[PASE — Predictive Analytics for Sustainable Energy](https://pase-predictive-analysis-sustainabl.vercel.app/)** · [code](https://github.com/just000Curious/PASE-Predictive-Analysis-Sustainable-Energy)
 
-**MLOps & Deployment**
-`MLflow` `Docker` `Azure ML` `FastAPI` `Vercel` `Render` `Git` `RESTful APIs`
+Wind power forecasting and community demand prediction. XGBoost and Random Forest on weather data — 92% accuracy for wind power, 89% for demand. The whole pipeline runs in Docker, served through FastAPI, and the React dashboard is live on Vercel. The interesting part was the time-series work: lag features, seasonal extractions, and getting it to actually behave at inference time.
 
-**Programming & Data**
-`Python` `SQL` `PostgreSQL` `Pandas` `NumPy` `PyPika`
-
-**Generative AI**
-`LangChain` `LangGraph` `RAG` `Prompt Engineering` `LLM API Integration` `Vector Embeddings` `Batch Inference`
-
-**BI & Visualization**
-`Power BI` `Tableau` `Matplotlib` `Seaborn`
+`Python` `XGBoost` `Random Forest` `FastAPI` `Docker` `React` `Time Series`
 
 ---
 
-## Featured Projects
+**[Credit Risk Modelling System](https://elitecredit-ui.vercel.app/)** · [code](https://github.com/just000Curious/credit-risk-ml-system)
 
-### ⚡ PASE — Predictive Analytics for Sustainable Energy
-> Wind power forecasting + community demand prediction for real-time grid optimization
+End-to-end loan default prediction with MLflow tracking. The dataset had a bad class imbalance problem — SMOTE fixed it and high-risk recall jumped 25%. Ran 50+ Optuna hyperparameter trials, tracked all experiments and model versions in MLflow. Not a demo project, it's a proper risk-assessment framework.
 
-- Trained XGBoost & Random Forest models achieving **92% wind power accuracy** and **89% demand accuracy**
-- Built time-series pipeline with lag features & seasonal extractions; containerized FastAPI backend with Docker for reproducible cloud deployment
-- Integrated React frontend, deployed live on Vercel for real-time grid monitoring
-
-**Stack:** `Python` `XGBoost` `Random Forest` `FastAPI` `Docker` `React` `TypeScript` `Vercel`
-&nbsp;·&nbsp; [Live Demo](https://abhishek-bhosale.vercel.app/) &nbsp;·&nbsp; [GitHub](https://github.com/just000Curious/PASE-Predictive-Analysis-Sustainable-Energy)
+`XGBoost` `Optuna` `SMOTE` `MLflow` `Python`
 
 ---
 
-### 💳 Credit Risk Modelling System
-> End-to-end loan default prediction with full ML lifecycle management
+**[No-Code SQL Generation Engine](https://github.com/just000Curious/sql_query_generator)** · *built for Konkan Railway Corp. Ltd.*
 
-- Applied SMOTE to resolve class imbalance → **+25% recall on high-risk defaults**
-- Ran 50+ Optuna hyperparameter tuning trials; tracked all experiments & model versions in MLflow
-- Production-grade risk-assessment framework with MLflow model registry
+Reads PostgreSQL schema metadata — tables, columns, primary/foreign keys — and generates complex JOINs, filters, and aggregations automatically. Non-technical departments stopped writing SQL entirely. Secured against injection, deployed via FastAPI.
 
-**Stack:** `Python` `XGBoost` `Optuna` `SMOTE` `MLflow`
-&nbsp;·&nbsp; [Live Demo](https://abhishek-bhosale.vercel.app/) &nbsp;·&nbsp; [GitHub](https://github.com/just000Curious/credit-risk-ml-system)
+`Python` `PyPika` `FastAPI` `PostgreSQL`
 
 ---
 
-### 🗃️ No-Code SQL Generation Engine
-> Automated query creation from database schema metadata — built for Konkan Railway Corp. Ltd.
+**[Agentic AI & GenAI Internship](https://github.com/just000Curious/advance_gen_ai_internship)** · *Innomatics Research Labs*
 
-- Reads PostgreSQL schema metadata to auto-generate complex JOINs, filters, and aggregations
-- Eliminated manual SQL writing for non-technical departments; secured against SQL injection
-- Deployed via FastAPI with dynamic parameter endpoints
+RAG pipelines, LLM chaining, vector embeddings, and structured batch inference via FastAPI. Also spent time on prompt engineering — zero-shot, few-shot, chain-of-thought — figuring out what actually changes LLM outputs vs what's just noise.
 
-**Stack:** `Python` `PyPika` `FastAPI` `PostgreSQL`
-&nbsp;·&nbsp; [GitHub](https://github.com/just000Curious/sql_query_generator)
+`LangChain` `LangGraph` `RAG` `FastAPI` `Prompt Engineering`
 
 ---
 
-### 🤖 Agentic AI & GenAI Projects
-> RAG pipelines, LLM chaining, and structured batch inference
+### where I've worked
 
-- Implemented RAG with vector embeddings, document retrieval, and LLM chaining using LangChain & LangGraph
-- Wrapped pre-trained GenAI models into FastAPI for structured batch inference and scalable deployment
-- Explored zero-shot, few-shot, and chain-of-thought prompting strategies
-
-**Stack:** `LangChain` `LangGraph` `FastAPI` `Vector Embeddings` `Prompt Engineering`
-&nbsp;·&nbsp; [GitHub](https://github.com/just000Curious/advance_gen_ai_internship)
+| | |
+|---|---|
+| **Konkan Railway Corporation Ltd.** | Project Trainee · Feb – May 2026 |
+| **Innomatics Research Labs** | Agentic AI & GenAI Intern (Remote) · Feb – May 2026 |
+| **DataPointer Technologies** | ML Intern · Sep – Oct 2024 |
 
 ---
 
-## Experience
+### skills
 
-| Period | Role | Organization |
-|--------|------|-------------|
-| Feb – May 2026 | Project Trainee | Konkan Railway Corporation Ltd. |
-| Feb – May 2026 | Agentic AI & GenAI Intern *(Remote)* | Innomatics Research Labs |
-| Sep – Oct 2024 | Machine Learning Intern | DataPointer Technologies |
+ML → `Scikit-learn` `XGBoost` `PyTorch` `Random Forest` `SMOTE` `Optuna` `Time Series` `Feature Engineering`
 
----
+MLOps → `MLflow` `Docker` `Azure ML` `FastAPI` `Vercel` `Git`
 
-## Education
+GenAI → `LangChain` `LangGraph` `RAG` `Prompt Engineering` `LLM API Integration`
 
-**B.Tech — Artificial Intelligence & Data Science**
-Government College of Engineering, Ratnagiri (DBATU) · 2022 – June 2026 · CGPA **7.63/10**
+Data → `Python` `SQL` `PostgreSQL` `Pandas` `NumPy` `Power BI` `Tableau`
 
 ---
 
-## Certifications
+### background
 
-| Certificate | Issuer |
-|-------------|--------|
-| Agentic AI Internship Certificate | Innomatics Research Labs |
-| Python 5★ | HackerRank |
-| Certificate of Merit | ISRO |
-| Software Engineering Virtual Experience | Goldman Sachs |
-| Data Science Certificate | Lloyds Banking Group |
+B.Tech — AI & Data Science · Govt. College of Engineering, Ratnagiri (DBATU) · 2022–2026 · CGPA 7.63/10
+
+Certified by Goldman Sachs (SE Virtual Experience), Lloyds Banking Group (Data Science), ISRO, HackerRank (Python 5★), Innomatics (Agentic AI)
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=just000Curious&show_icons=true&theme=default&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=just000Curious&layout=compact&theme=default&hide_border=true" height="150" />
-</p>
-
----
-
-<p align="center">
-  <em>"Open to Junior Data Scientist or ML Engineer roles — if you're building something where data can make a difference, let's talk."</em>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/abhisheksambhaji-bhosale">LinkedIn</a> ·
-  <a href="https://abhishek-bhosale.vercel.app/">Portfolio</a> ·
-  <a href="mailto:abhishekbhosale7744@gmail.com">Email</a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=just000Curious&style=flat-square&color=blue" alt="Profile views" />
-</p>
+*Looking for junior ML engineer or data scientist roles. Open to Pune, Mumbai, Navi Mumbai, Thane, Bengaluru.*
